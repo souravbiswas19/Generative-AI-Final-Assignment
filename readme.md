@@ -52,7 +52,7 @@ The application provides the following API endpoints:
 3. Parameters: `pdf_path` (Path to the PDF file) and `pdf_name` (Name of the PDF file)
 
 4. Description: 
-```Uploads a PDF document to the application. The document is segmented into smaller chunks for processing. Returns a success message if the document is successfully converted to embeddings and saved to the Chroma Db.```
+Uploads a PDF document to the application. The document is segmented into smaller chunks for processing. Returns a success message if the document is successfully converted to embeddings and saved to the Chroma Db.
 
 ### 2. Q&A Endpoint
 
@@ -63,7 +63,7 @@ The application provides the following API endpoints:
 3. Parameters: `question` (User's question) and `pdf_name` (Name of the PDF file)
 
 4. Description: 
-``` Accepts a user's question and the name of the PDF document. Queries the Chroma Vector Database using the user's question and retrieves relevant segments of the PDF documents based on the search results. Returns the answer to the user's question using LangChain and Google PaLM 2.```
+Accepts a user's question and the name of the PDF document. Queries the Chroma Vector Database using the user's question and retrieves relevant segments of the PDF documents based on the search results. Returns the answer to the user's question using LangChain and Google PaLM 2.
 
 ## Testing
 
