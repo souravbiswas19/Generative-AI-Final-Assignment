@@ -71,3 +71,13 @@ We can test the application by using a set of questions from PDF documents to ve
 
 ## Conclusion
 This README provides an overview of the Q&A system based on PDF documents. Follow the installation instructions to set up the environment and run the application. For further details, refer to the code documentation and comments within each module.
+
+## References
+1. Huggingface.co
+2. Youtube
+3. Medium
+4. Google Cloud
+5. Langchain Documentation
+6. ChromaDB Documentation
+7. FastAPI Documentation
+8. Google Cloud Gen AI - Gemini and PaLM 2
